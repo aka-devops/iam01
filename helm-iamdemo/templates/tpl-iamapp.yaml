@@ -13,7 +13,7 @@ spec:
         app: iam
     spec:
       containers:
-      - image: {{ .Values.image.repository }}:{{ .Values.image.tag }
+      - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         name: aka-iam
         ports:
         - containerPort: 80
