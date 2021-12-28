@@ -1,0 +1,9 @@
+
+apiVersion: v1
+data:
+  .dockerconfigjson: ewoJImF1dGhzIjogewoJCSJodHRwczovL2luZGV4LmRvY2tlci5pby92MS8iOiB7CgkJCSJhdXRoIjogIllXNXBiR0Z3WVhSdk9sQmhjM04zYjNKa1FERXlNdz09IgoJCX0KCX0KfQ==
+kind: Secret
+metadata:
+  name: reg-aka-cred
+  namespace: argocd
+type: kubernetes.io/dockerconfigjson
