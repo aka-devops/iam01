@@ -19,9 +19,9 @@ spec:
         - containerPort: 80
       imagePullSecrets:
        - name: reg-aka-cred
-      resources:
-       limits:
-        memory: 256Mi
-       requests:
-        cpu: 64m
-        memory: 256Mi
+    resources:
+      limits:
+       memory: 256Mi
+      requests:
+       cpu: 64m
+       memory: 256Mi
