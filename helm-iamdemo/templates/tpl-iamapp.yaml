@@ -17,7 +17,7 @@ spec:
         name: aka-iam
         ports:
         - containerPort: 80
-      imagePullSecrets:
-       - name: reg-aka-cred
+        imagePullSecrets:
+         - name: reg-aka-cred
       
     
